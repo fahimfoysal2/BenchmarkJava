@@ -1226,5 +1226,9 @@
         <tomcat.major.version>8</tomcat.major.version>
         <version.tomcat>8.5.70</version.tomcat>
         <tomcat.url>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major.version}/v${version.tomcat}/bin/apache-tomcat-${version.tomcat}.zip</tomcat.url>
+
+        <!-- Sonar Qube -->
+        <sonar.organization>owasp-bench-mark</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 </project>
